@@ -10,4 +10,3 @@ for link in tb.find_all('b'):
     name = link.find('a')
     print(name.get_text('title'))
 
-input("enter to exit")
